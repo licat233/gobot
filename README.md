@@ -2,6 +2,8 @@
 
 ## 使用方法
 
+注意：目前只支持在linux上运行，如需其它平台运行，自行修改里面的资源地址即可
+
 ### 1.先赋予脚本的运行权限
 
 ```shell
@@ -19,3 +21,9 @@ chmod +x ./*.sh
 ```shell
 ./run.sh bot
 ```
+
+## 感谢
+
+[https://github.com/rust-kotlin/gpt-bot](https://github.com/rust-kotlin/gpt-bot)
+
+[https://github.com/Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
