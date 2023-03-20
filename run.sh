@@ -6,15 +6,15 @@ chmod a+x ./*.sh
 name=$1
 
 if [ "$name" == "qq" ]; then
-    if ! ./qq.sh;then
-exit 1
+    if ! ./qq.sh; then
+        exit 1
     fi
     exit 0
 fi
 
-if [ "$name" == "bot" ];then
-    if ! ./bot.sh;then
-exit 1
+if [ "$name" == "bot" ]; then
+    if ! ./bot.sh; then
+        exit 1
     fi
     exit 0
 fi
